@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark: #000000;
+    --rosa-Destaque: #EC5DB7;
+    --backgroundColor: #FFB6B6;
+    --fontFamily:  "Montserrat", sans-serif;
+}
+body {
+    gap: 2vh;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.lineOrg {
+    gap: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageS {
+    width: 20vh;
+    height: 30vh;
+    background-color: var(--rosa-Destaque);
+}
+.imageSL2 {
+    width: 50vh;
+    height: 30vh;
+    background-color: var(--rosa-Destaque);
+}
